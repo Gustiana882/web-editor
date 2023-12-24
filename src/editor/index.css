@@ -1,0 +1,104 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Let's highlight canvas boundaries */
+#canvas {
+  flex: 1;
+}
+
+/* Reset some default styling */
+.gjs-cv-canvas {
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Primary color for the background */
+.gjs-one-bg {
+  background-color: white;
+}
+
+/* Secondary color for the text color */
+.gjs-two-color {
+  color: var(--mantine-color-dark-9);
+}
+
+/* Tertiary color for the background */
+.gjs-three-bg {
+  background-color: #ec5896;
+  color: white;
+}
+
+/* Quaternary color for the text color */
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  color: #ec5896;
+}
+
+/* classes style */
+.gjs-field {
+  background-color: var(--mantine-color-gray-1);
+  color: var(--mantine-color-dark-9);
+}
+
+.gjs-field .gjs-d-s-arrow {
+  border-top: 4px solid var(--mantine-color-dark-9);
+}
+
+.gjs-clm-tags #gjs-clm-new {
+  color: var(--mantine-color-dark-9);
+}
+
+.gjs-three-bg {
+  background-color: var(--mantine-color-blue-6);
+  padding: 2.5px;
+  display: flex;
+  align-items: center;
+}
+
+.gjs-clm-tag-status,
+.gjs-clm-tag-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gjs-clm-tags {
+  padding: 0px;
+}
+
+/* setting */
+
+.gjs-label {
+  font-weight: 400;
+}
+.gjs-clm-tags {
+  min-height: 110px;
+}
+
+.mantine-Accordion-content {
+  padding: 0px;
+}
+.mantine-Accordion-control {
+  padding: 0px;
+}
+.mantine-Accordion-control:hover {
+  background-color: white;
+}
+.mantine-Accordion-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+.mantine-Accordion-item {
+  border: none;
+}
